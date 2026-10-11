@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening yulduzim</title>
+    <link rel="icon" type="image/x-icon" href="star_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .rasm {
+            position: relative;
+            width: 100%;
+        }
+
+        .rasm img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .menu {
+            position: absolute;
+            inset: 0;
+        }
+
+        .menu a {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 220px;
+            height: 60px;
+            padding: 12px 20px;
+            color: #000;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 22px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .menu .kirish {
+            top: 330px;
+            left: 350px;
+            background-color: rgb(143, 238, 0);
+        }
+
+        .menu .asos {
+            top: 420px;
+            left: 350px;
+            background-color: rgb(99, 239, 255);
+        }
+
+        .menu .xulosa {
+            top: 500px;
+            left: 350px;
+            background-color: rgb(211, 99, 255);
+        }
+
+        .menu a:active {
+            transform: translateY(1px);
+        }
+
+        .content-frame {
+            position: relative;
+            width: 100%;
+            min-height: 500px;
+            border: none;
+            background: #fff;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="rasm">
+        <div class="menu">
+            <a href="kirish.html" class="kirish">Kirish</a>
+            <a href="asos.html" class="asos">Asosiy qism</a>
+            <a href="xulosa.html" class="xulosa">Xulosa</a>
+        </div>
+        <img src="image.png" alt="space">
+    </div>
+</body>
+</html>
